@@ -8,10 +8,10 @@ To paint on an image first we load an image and then initialize a variable to fa
 
 ##### Original image
 
-<img src="https://github.com/Rupa-421/Python-EveryWhere/blob/master/Image_Processing/Painting_on_img/Images/Input.jpg">
+<img src="Images/Input.jpg">
 
 
 ##### Output painted image
 
-<img src="https://github.com/Rupa-421/Python-EveryWhere/blob/master/Image_Processing/Painting_on_img/Images/Output.png">
+<img src="Images/Output.png">
 
