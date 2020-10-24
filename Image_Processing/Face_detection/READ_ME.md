@@ -7,14 +7,14 @@ FACE DETECTION USING OPEN CV
 
 Face detection is mostly done by using haarcascade classifier.The steps to do are:
 
-1.Importing libraries
+#### Importing libraries
 
-2.Loading the image and converting it into gray scale
+#### Loading the image and converting it into gray scale
 
 
 The reason for this is gray channel is easy to process and is computationally less intensive as it contains only 1-channel of black-white.
 
-3.Detecting features
+#### Detecting features
 
 Now we try to find the co-ordinates of face to draw a rectangle around the face and here we face_classifier,in_built function detectMultiScale, haarcascade_frontalface_default.xml.
 In detectMultiScale we pass parameters:
@@ -22,11 +22,11 @@ a.GrayScale image
 b.scaleFactor — Parameter specifying how much the image size is reduced
 c.minNeighbors — Parameter specifying how many neighbors each candidate rectangle should have to retain it. This parameter will affect the quality of the detected faces
 
-4.Drawing rectangle
+#### Drawing rectangle
 
 It gives four co-ordinates x,y,width of image,height of image
 
-5.Displaying output and text
+#### Displaying output and text
 
 putText takes following parameters
 
@@ -37,4 +37,9 @@ putText takes following parameters
 5.color:rgb values
 6.fontScale:fontsize
 
+### Input img
+<img src="Images/harrypotter.jpg">
 
+### Output img
+
+<img src="Images/Output.png">
